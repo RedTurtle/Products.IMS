@@ -114,7 +114,7 @@ class IMSMessage(object):
 
         message = self._shortenLines(message)
 
-        if isinstance(receiver, str):
+        if isinstance(receiver, basestring):
             receiver=[receiver]
         received = []
         for r in receiver:
