@@ -1,10 +1,11 @@
 Changelog
 =========
 
-1.0b6 (unreleased)
+1.0b6rt (unreleased)
 ------------------
 
-- Nothing changed yet.
+* change event related to message dispatch [lucabel]
+* change the type for string returned by Title method in content/message_folder.py [lucabel]
 
 
 1.0b5 (2013-07-22)

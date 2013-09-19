@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '1.0b6.dev0'
+version = '1.0b6rt'
 
 setup(name='Products.IMS',
       version=version,
