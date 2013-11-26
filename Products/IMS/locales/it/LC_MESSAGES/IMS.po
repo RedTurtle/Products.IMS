@@ -1,0 +1,215 @@
+# Giacomo Spettoli <giacomo.spettoli@gmail.com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2013-11-26 10:32+0000\n"
+"PO-Revision-Date: 2013-11-26 11:38+0100\n"
+"Last-Translator: Giacomo Spettoli <giacomo.spettoli@redturtle.it>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: IMS\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: ../browser/templates/message_folder.pt:44
+#: ../browser/templates/message_macros.pt:19
+msgid "Date"
+msgstr "Data"
+
+#: ../browser/views.py:329
+msgid "Forward Message"
+msgstr "Inoltra il messaggio"
+
+#: ../browser/templates/message_folder.pt:42
+#: ../browser/templates/message_macros.pt:3
+msgid "From"
+msgstr "Da"
+
+#: ../browser/views.py:209
+msgid "Message"
+msgstr "Messaggio"
+
+#: ../browser/views.py:214 ../profiles/default/actions.xml
+msgid "New Message"
+msgstr "Nuovo messaggio"
+
+#: ../profiles/default/actions.xml
+msgid "Received Messages"
+msgstr "Messaggi ricevuti"
+
+#: ../browser/views.py:286
+msgid "Reply to Message"
+msgstr "Rispondi al messaggio"
+
+#: ../browser/views.py:252
+msgid "Sending your message failed"
+msgstr "Invio del messaggio fallito"
+
+#: ../profiles/default/actions.xml
+msgid "Sent Messages"
+msgstr "Invia messaggi"
+
+#: ../browser/templates/message_folder.pt:41 ../browser/views.py:206
+msgid "Subject"
+msgstr "Oggetto"
+
+#: ../browser/templates/message_folder.pt:43
+#: ../browser/templates/message_macros.pt:11 ../browser/views.py:202
+msgid "To"
+msgstr "A"
+
+#: ../browser/views.py:220
+msgid ""
+"Unfortunately it is not possible to send messages using your user account. "
+"Please use a Plone user rather than a Zope user."
+msgstr ""
+"Non è possibile inviare messaggi con il tuo utente. Utilizza un utente Plone "
+"invece di un utente Zope."
+
+#: ../browser/views.py:249
+msgid "Your message has been sent successfully"
+msgstr "Il tuo messaggio è stato inviato con successo"
+
+#. Default: "Do you really want to delete the following messages?"
+#: ../browser/templates/messages_delete.pt:11
+msgid "alert_really_delete"
+msgstr "Vuoi veramente eliminare i seguenti messaggi?"
+
+#: ../browser/views.py:255
+msgid "cancel"
+msgstr "annulla"
+
+#: ../browser/templates/message_folder.pt:88 ../browser/views.py:348
+#: ../profiles/default/actions.xml
+msgid "forward"
+msgstr "inoltra"
+
+#: ../browser/templates/message_folder.pt:64
+msgid "forwarded"
+msgstr "inoltrati"
+
+#. Default: "Companio"
+#: ../content/message.py:67
+msgid "label_companion"
+msgstr ""
+
+#. Default: "Message"
+#: ../content/message.py:45
+msgid "label_message"
+msgstr "Messaggio"
+
+#. Default: "Received by"
+#: ../content/message.py:36
+msgid "label_receiver"
+msgstr "Ricevuto da"
+
+#. Default: "Reply to"
+#: ../content/message.py:56
+msgid "label_replyTo"
+msgstr "Rispondi a"
+
+#. Default: "Sent by"
+#: ../content/message.py:27
+msgid "label_sender"
+msgstr "Inviato da"
+
+#. Default: "With kind regards,"
+#: ../skins/ims/new_message_notification.pt:19
+msgid "mail_greetings"
+msgstr "Distinti saluti,"
+
+#. Default: "Hello ${name},"
+#: ../skins/ims/new_message_notification.pt:2
+msgid "mail_hello"
+msgstr "Buongiorno ${name},"
+
+#. Default: "-------------------- you may reply to this message by clicking the following link:"
+#: ../skins/ims/new_message_notification.pt:12
+msgid "mail_message_bottom"
+msgstr ""
+
+#. Default: "You have received a new message from ${name} over at ${site} [${url}]. -------------------- Subject: ${subject}"
+#: ../skins/ims/new_message_notification.pt:9
+msgid "mail_message_top"
+msgstr ""
+"Hai ricevuto un nuovo messaggio da ${name} su ${site} [${url}]. "
+"-------------------- Oggetto: ${subject}"
+
+#. Default: "You have received a new message"
+#: ../utils.py:42
+msgid "mail_subject"
+msgstr "Hai ricevuto un nuovo messaggio"
+
+#: ../browser/templates/message_folder.pt:97
+msgid "mark as read"
+msgstr "segna come letto"
+
+#. Default: "${message} sent by ${name}"
+#: ../browser/templates/messages_delete.pt:26
+msgid "message_sentby"
+msgstr "${message} inviato da ${name}"
+
+#. Default: "${message} sent to ${name},"
+#: ../browser/templates/messages_delete.pt:42
+msgid "message_sentto"
+msgstr "${message} inviato a ${name},"
+
+#. Default: "You have no received messages"
+#: ../browser/templates/message_folder.pt:23
+msgid "no_received_messages"
+msgstr "Non hai ancora ricevuto un messaggio"
+
+#. Default: "You have no sent messages"
+#: ../browser/templates/message_folder.pt:20
+msgid "no_sent_messages"
+msgstr "Non hai ancora inviato un messaggio"
+
+#: ../browser/templates/message_folder.pt:59
+msgid "read"
+msgstr "letto"
+
+#: ../browser/templates/message_folder.pt:65
+msgid "replied"
+msgstr "risposto"
+
+#: ../browser/templates/message_folder.pt:83 ../browser/views.py:302
+#: ../profiles/default/actions.xml
+msgid "reply"
+msgstr "rispondi"
+
+#: ../browser/views.py:238
+msgid "send"
+msgstr "invia"
+
+#: ../skins/ims/author.cpt:97
+msgid "send message"
+msgstr "invia messaggio"
+
+#. Default: "received from ${name} - ${date}"
+#: ../browser/templates/message_macros.pt:52
+msgid "thread_label_received"
+msgstr "ricevuto da ${name} - ${date}"
+
+#. Default: "sent to ${name} - ${date}"
+#: ../browser/templates/message_macros.pt:44
+msgid "thread_label_sent"
+msgstr "inviato a ${name} - ${date}"
+
+#. Default: "Received Messages"
+#: ../content/message_folder.py:39
+msgid "title_receivedmessagefolder"
+msgstr "Messaggi ricevuti"
+
+#. Default: "Sent Messages"
+#: ../content/message_folder.py:55
+msgid "title_sentmessagefolder"
+msgstr "Messaggi inviati"
+
+#: ../browser/templates/message_folder.pt:60
+msgid "unread"
+msgstr "non letti"
